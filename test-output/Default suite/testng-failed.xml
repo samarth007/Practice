@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="NewFramework.Demoo.PracticesTest">
+        <methods>
+          <include name="beforepra"/>
+          <include name="MouseHov"/>
+          <include name="ISDisplayed"/>
+          <include name="stest"/>
+          <include name="attest"/>
+        </methods>
+      </class> <!-- NewFramework.Demoo.PracticesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
